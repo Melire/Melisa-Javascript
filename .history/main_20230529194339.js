@@ -63,3 +63,4 @@ boton.addEventListener("click", function () {
         default: document.getElementById('resultantePerdiste').innerHTML="El valor ingresado no es valido";
     }
 });
+
