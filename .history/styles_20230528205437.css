@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.titulo{
+     color: green;
+     text-align: center;
+     text-shadow: #0fd3516c;
+font-size: 5rem;
+}
+.reglas{
+  width: auto;
+  height: 90vh;
+  padding: 2rem;
+  margin: 2rem;
+ align-items: center;
+ justify-content: center;
+ background-image: url("./papel.jpg");
+ background-size: cover;
+ background-position: center;
+ text-align: center;
+ color: white;
+}
+.fondoInstrucciones{
+    background: linear-gradient(to right, #51525246, #1f202071, #0000006c);
+    
+}

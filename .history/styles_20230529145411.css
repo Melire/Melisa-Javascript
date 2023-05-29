@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.titulo{
+     color: rgb(142, 231, 26);
+     text-align: center;
+     text-shadow: #0707076c;
+font-size: 3rem;
+}
+.reglas{
+
+  width: auto;
+  height: 90vh;
+  padding: 2rem;
+  margin: 2rem;
+ align-items: center;
+ justify-content: center;
+ background-image: url("./papel.jpg");
+ background-size: cover;
+ background-position: center;
+ text-align: center;
+ color: white;
+}
+.fondoInstrucciones{
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #51525246, #1f202071, #0000006c);
+    
+}
+#resultanteGanaste{
+    color: rgb(26, 231, 53);
+    font-size: 2rem;
+}
+
+#resultantePerdiste{
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+}
+#resultanteEmpataste{
+    color: rgb(215, 253, 0);
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 567px) {
+    .titulo{font-size: 2rem;
+    }
+.reglas{
+    width: auto;
+    height: auto;
+}
+}

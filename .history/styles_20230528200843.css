@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reglas{
+  width: 90%;
+  height: 90%;
+  padding: 2rem;
+  margin: ;
+  align-items: center;
+ justify-content: center;
+ background-color: blue;
+}
